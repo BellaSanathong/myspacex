@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+    
+}
+
+.nav-item {
+    color: #0554F2;
+}
+
+.jumbotron {
+    margin: auto;
+    background-image: url(../img/spacex-dragon-spacecraft-capsule-1024x766.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75%;
+}
+/* Image Placeholder 
+
+.image-placeholder {
+    background-color: #eee;
+    display: flex;
+    height: 680px;
+    margin: auto;
+    width: 100%;
+}
+
+.image-placeholder > h4 {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
+
+*/
+.carousel-inner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    
+}
+
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  
+}
+.carousel_slide {
+    align-self: center;
+    margin: 5px;
+}
+
+#mission {
+    margin: auto 20px auto 20px;
+}
+
+.parallax { 
+   /* The image used */
+        background-image: url("../img/unnamed.jpg");
+
+        /* Set a specific height */
+        height: 300px; 
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+#config {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#overview {
+    margin: 25px;
+}
+
+h2 {
+    text-align: center;
+    margin: auto;
+}
+
+footer {
+    margin: 20px;
+    clear: both;
+}
+
+#footer {
+    margin: 20px;
+    float: left;
+}
